@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 50vw;
+            height:100vh;
+            text-align: center;
+        }
+        table,th,td{
+            border:3px solid rgb(240, 9, 9);
+            border-collapse: collapse;
+        }
+        table{
+            background-color: rgb(255, 156, 120);
+        }
+        th:nth-child(odd){
+            background-color:green;
+        }
+        th:nth-child(even){
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td colspan="7"><b>Time Table</b></td>
+            </tr>
+            <tr>
+                <th>Day</th>
+                <th>10:30am to 11:30am</th>
+                <th>11:30am to 1pm</th>
+                <th>1pm to 2pm</th>
+                <th>2pm to 3pm</th>
+                <th>3pm to 4pm</th>
+                <th>4pm to 4:30pm</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td colspan="2">theory</td>
+                <td rowspan="5">
+                    L<br><br>
+                    U<br><br>
+                    N<br><br>
+                    C<br><br>
+                    H<br>
+      
+                </td>
+                <td colspan="2">Practice</td>
+                <td>Task</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="2">theory</td>
+    
+                <td colspan="3">Practice</td>
+     
+            </tr>
+            <tr>
+                <td>Wednusday</td>
+                <td colspan="2">theory</td>
+    
+                <td colspan="2">Practice</td>
+           
+                <td>task</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td colspan="2">theory</td>
+    
+                <td colspan="3">Practice</td>
+     
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td colspan="2">theory</td>
+    
+                <td colspan="2">Practice</td>
+           
+                <td>task</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

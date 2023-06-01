@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            height:150px;
+            width:500px;
+            padding: 25px;
+        }
+        .disply{
+          display: flex; 
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style ="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div >
+            <form>
+                <fieldset>
+                  <legend>Your address</legend>
+        
+                  <div class="disply">
+                    <label for="Fname">First name</label>
+                    <input type="text" id="Fname" >
+                  </div>
+        
+                  <div class="disply">
+                    <label for="Lname">Last name</label>
+                    <input type="text" id="Lname" >
+                  </div>
+        
+                  <div class="disply">
+                    <label for="Street">Street</label>
+                    <input type="text" id="Street" >
+                  </div>
+        
+                  <div class="disply">
+                    <label for="City">City</label>
+                    <input type="text" id="City" >
+                  </div>
+          
+                </fieldset>
+            </form>
+
+        </div>
+        
+
+            
+        <div >
+            <form>
+                <fieldset>
+                  <legend>Additional details</legend>
+        
+                  <div class="disply">
+                    <label >Biography</label>
+                    <textarea rows="2" columns="32"></textarea>
+                  </div>
+        
+                  <div class="disply">
+                    <label for="img">Image</label>
+                    <div>
+                        <input style="padding-left:30px;" type="file" id="img" >
+                    </div>
+                  </div>
+        
+                  <div class="disply">
+                    <label for="Agegrp">Street</label>
+                    <select style="width:175px; height: 25px;" id = "Agegrp">
+                        <option value="0 to 9">0 to 9</option>
+                        <option value="10 to 18">10 to 18</option>
+                        <option value="18 to 27">18 to 27</option>
+                    </select>
+                  </div>
+                </fieldset>
+              </form>
+            
+        </div>
+   
+        
+    </div>
+
+</body>
+</html>
